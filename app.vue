@@ -10,7 +10,7 @@
 
     <v-main>
       <v-container>
-        <MainAbout />
+        <MainProfile />
         <MainSkills />
         <MainContact />
       </v-container>

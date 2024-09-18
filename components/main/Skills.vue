@@ -14,8 +14,8 @@
   </v-card>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+export default defineNuxtComponent({
   name: "Skills",
   data() {
     return {
@@ -27,7 +27,7 @@ export default {
       ],
     };
   },
-};
+});
 </script>
 
 <style scoped>

@@ -30,8 +30,8 @@
   </v-card>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+export default defineNuxtComponent({
   name: "Contact",
   data() {
     return {
@@ -56,7 +56,7 @@ export default {
       }, 1000);
     },
   },
-};
+});
 </script>
 
 <style scoped>

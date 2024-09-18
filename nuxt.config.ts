@@ -14,4 +14,8 @@ export default defineNuxtConfig({
   ],
 
   compatibilityDate: "2024-09-17",
+  app: {
+    baseURL:
+      process.env.NODE_ENV === "development" ? "/" : "/your-subdirectory/",
+  },
 });
